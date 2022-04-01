@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/beha', function () {
+    return view('welcomes.index');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('rumahku');
 });
 
 Route::get('/nana', function () {
