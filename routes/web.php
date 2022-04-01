@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/beha', function () {
-    return view('welcome');
+    return view('welcomes.index');
 });
 
 Route::get('/', function () {
